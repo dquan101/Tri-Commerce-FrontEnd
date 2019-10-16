@@ -1,0 +1,47 @@
+img {
+  vertical-align: middle;
+  border-style: none;
+  position: relative;
+  bottom: 20px;
+  width: inherit;
+  height: inherit;
+}
+
+img.dropdown-image {
+  border-radius: 50%;
+  width: 32px;
+  margin-left: 10px;
+  top: 0px;
+  right: 5px;
+}
+
+footer {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+}
+
+.border-pretty {
+  border: 1px solid #3193a4;
+}
+
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show > .btn-success.dropdown-toggle {
+  color: #fff;
+  background-color: #308798;
+  border-color: #308798;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #308798;
+  border-color: #308798;
+}
+
